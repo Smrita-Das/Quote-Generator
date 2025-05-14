@@ -1,5 +1,15 @@
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(240, 241, 244, 0.924);
+    font-size: 35px;
+    background-color: rgba(15, 5, 148, 0.973);
+    margin-top: 0;
+    padding: 8px;
+}
+
 body{
-    background-color: rgba(240, 234, 227, 0.249);
+    background-color: rgba(240, 234, 227, 0.456);
 }
 .quoteBox{
     width: 400px;
@@ -9,7 +19,7 @@ body{
     text-align: center;
 }
 button{
-   background-color: rgb(18, 72, 166); 
+   background-color: rgba(15, 5, 148, 0.973); 
    color: white;
    padding: 14px;
    border: none;
