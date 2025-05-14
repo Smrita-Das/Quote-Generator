@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(240, 234, 227, 0.249);
+}
+.quoteBox{
+    width: 400px;
+    margin: 30px auto;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+button{
+   background-color: rgb(18, 72, 166); 
+   color: white;
+   padding: 14px;
+   border: none;
+   border-radius: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 17px;
+}
+button:hover{
+    background-color: rgb(18, 72, 166);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quote{
+    color: rgba(15, 5, 148, 0.973);
+    font-weight: bold;
+    font-size: 20px;
+}
+#author{
+    color: rgba(52, 9, 195, 0.717);
+    font-size: 18px;
+}
+
+.box{
+    border: 1px solid black;
+    border-radius: 28px;
+    width: 600px;
+    margin: 25vh auto;
+}
